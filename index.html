@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>MetogramStudios</title>
+    <style>
+        body {
+            background-color: rgb(224, 221, 215);
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: rgb(230, 1, 1);
+            font-size: 70px;
+        }
+        img {
+            border-radius: 25px;
+            max-width: 100%;
+        }
+        button {
+            background-color: rgb(105, 105, 201);
+            color: white;
+            border-radius: 30px;
+            font-size: 25px;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: rgb(31, 31, 201);
+            color: rgb(0, 255, 0);
+            font-size: 30px;
+        }
+        form {
+            max-width: 400px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            margin-bottom: 12px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        .info-section {
+            background-color: white;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>MetogramStudios</h1>
+    <img src="https://lh3.googleusercontent.com/2u97YtdWWApoH38ZEeesVfHC1t8j7pJWcgiz7pGVzFCCxc0WaquyR98OdGSjnTszgBe-S_JdA2j0Dj2XoZ37cqY4s7CzV1GpHRQmP8iF9Js5PYqJSWeMNysHSe-MflgLkdREPLke2qU=w16383" alt="MetogramStudios Logo">
+
+    <div class="info-section">
+        <h1>Hakkında Bilgi</h1>
+        <h3>
+            Metogram Studios, çok az bilinen — hatta firma denemeyecek kadar küçük — bir girişimdir.
+            Büyümeye çalışan bu ekip, şu an yalnızca 2 kişiden oluşmaktadır.
+            Şu anda Roblox üzerinde 1'i taslak olarak 2 oyuna, bu siteyle beraber 3 internet sitesine ve 
+            uygulama mağazaları (Play Store ve App Store) için hazırlanmış 1 taslak mobil oyuna sahiptir.
+            CEO’su, ileri düzey bir yazılımcıdır (%70). Ekip şu an en çok web geliştirme alanına odaklanmıştır.
+        </h3>
+    </div>
+
+    <div class="info-section">
+        <h1>Projelerimiz</h1>
+        <p>1 Roblox Oyunu:</p>
+        <button onclick="window.location.href='https://www.roblox.com/tr/games/105440254846315/CHOOSE-YOUR-PATH-ALPHA-NEW-GAME'">
+            CHOOSE YOUR PATH
+        </button>
+        <img src="https://tr.rbxcdn.com/180DAY-e41c1e337c4f2834e66ee1007ba1819a/352/352/Image/Png/noFilter" alt="Roblox Oyunu" style="margin-top: 10px;">
+
+        <p>1 Web Site:</p>
+        <button onclick="window.location.href='https://sites.google.com/view/dahazekiortaokullar/ana-sayfa'">
+            KİTAP ÖNERİLERİ
+        </button>
+
+        <p>2 Web Site:</p>
+        <button onclick="window.location.href='https://metogram7.github.io/klavye-site/'">
+            KLAVYE REHBERİ
+        </button>
+    </div>
+
+    <h1 style="margin-left: 50px; background-color: brown; color: aqua;">BİZE KATILIN</h1>
+
+    <div class="info-section">
+        <h2>Mesaj Gönder</h2>
+        <p>Gönderdiğiniz mesajlar %100 güvenli kalacaktır.</p>
+
+        <form action="https://formsubmit.co/metehanakkaya30@gmail.com" method="POST">
+            <input type="text" name="isim" placeholder="Adınız Soyadınız" required>
+            <input type="email" name="email" placeholder="E-posta adresiniz" required>
+            <textarea name="mesaj" rows="5" placeholder="Mesajınız" required></textarea>
+
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="Yeni İletişim Formu Mesajı!">
+            <input type="hidden" name="_template" value="box">
+            <input type="hidden" name="_next" value="https://example.com/tesekkurler.html">
+
+            <button type="submit">Gönder</button>
+        </form>
+    </div>
+
+    <h1>Şartlar:</h1>
+    <p>İyi yazılım bilgisi (<u>HTML, C#, LUA-U</u> 3'ünden biri yeterlidir)</p>
+    <p>Ama isterseniz başka görevlerde de yer alabilirsiniz: insanlara firmayı tanıtmak vb.</p>
+
+</body>
+</html>
